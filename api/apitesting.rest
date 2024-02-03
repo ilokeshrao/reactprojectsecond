@@ -1,0 +1,22 @@
+###
+POST http://localhost:5000/api/reg
+Content-Type: application/json
+
+
+{
+"username":"lokesh",
+"password":"123"
+
+}
+
+###
+POST http://localhost:5000/api/logincheck
+Content-Type: application/json
+
+{
+"username":"lokesh",
+"password":"123"
+
+}
+###
+Get http://localhost:5000/api/allproductdata
